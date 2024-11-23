@@ -51,7 +51,7 @@ def main():
 	# defined in the above code 
 	st.markdown(html_temp, unsafe_allow_html = True) 
 	
-	image = Image.open(r'C:\Users\Admin\Desktop\MH\DATK\Image_Failure\AI-Driven-Predictive-Maintenance-for-Induction-Motors.webp')
+	image = Image.open("Image_Failure/AI-Driven-Predictive-Maintenance-for-Induction-Motors.webp")
 	st.image(image, caption='Sunrise by the mountains')
 	
 	status = st.radio("Select Model: ", ('Decision Tree', 'KNN'))
