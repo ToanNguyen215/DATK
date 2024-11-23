@@ -52,7 +52,7 @@ def main():
 	st.markdown(html_temp, unsafe_allow_html = True) 
 	
 	image = Image.open("Image_Failure/AI-Driven-Predictive-Maintenance-for-Induction-Motors.webp")
-	st.image(image, caption='Sunrise by the mountains')
+	
 	
 	status = st.radio("Select Model: ", ('Decision Tree', 'KNN'))
 	if status == 'Decision Tree':
